@@ -1,0 +1,40 @@
+USE [LAKE_RAW]
+GO
+
+/****** Object:  Table [dbo].[TBL_ATRACACAO]    Script Date: 30/03/2022 17:39:18 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TBL_ATRACACAO](
+	[IDATRACACAO] [varchar](255) NULL,
+	[CDTUP] [varchar](255) NULL,
+	[IDBERCO] [varchar](255) NULL,
+	[BERCO] [varchar](255) NULL,
+	[PORTO_ATRACACAO] [varchar](255) NULL,
+	[APELIDO_INSTALACAO_PORTUARIA] [varchar](255) NULL,
+	[COMPLEXO_PORTUARIO] [varchar](255) NULL,
+	[TIPO_DA_AUTORIDADE_PORTUARIA] [varchar](255) NULL,
+	[DATA_ATRACACAO] [varchar](255) NULL,
+	[DATA_CHEGADA] [varchar](255) NULL,
+	[DATA_DESATRACACAO] [varchar](255) NULL,
+	[DATA_INICIO_OPERACAO] [varchar](255) NULL,
+	[DATA_TERMINO_OPERACAO] [varchar](255) NULL,
+	[ANO] [varchar](255) NULL,
+	[MES] [varchar](255) NULL,
+	[TIPO_DE_OPERACAO] [varchar](255) NULL,
+	[TIPO_DE_NAVEGACAO_DA_ATRACACAO] [varchar](255) NULL,
+	[NACIONALIDADE_DO_ARMADOR] [varchar](255) NULL,
+	[FLAGMCOPERACAOATRACACAO] [varchar](255) NULL,
+	[TERMINAL] [varchar](255) NULL,
+	[MUNICIPIO] [varchar](255) NULL,
+	[UF] [varchar](255) NULL,
+	[SGUF] [varchar](255) NULL,
+	[REGIAO_GEOGRAFICA] [varchar](255) NULL,
+	[NUM_DA_CAPITANIA] [varchar](255) NULL,
+	[NUM_DO_IMO] [varchar](255) NULL
+) ON [PRIMARY]
+GO
+
